@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Custom Logo Design | Viral Luva</title>
+    <meta name="description" content="Get a unique and memorable logo design to build your brand identity with Viral Luva."/>
+    <meta name="keywords" content="Logo Design, Branding, Viral Luva, Custom Logo"/>
+    <meta name="author" content="Viral Luva">
+    <link rel="icon"  href="./lv.png" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Hamburger Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+      body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+    </style>
+  <link rel="canonical" href="https://viralluva.in"/>
+
+<meta property="og:title" content="Custom Logo Design | Viral Luva"/>
+<meta property="og:description" content="Get a unique and memorable logo design to build your brand identity with Viral Luva."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://viralluva.in"/>
+
+</head>
+
+  <body class="bg-[#050c14] text-white pt-20">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-[#050c14] z-50 shadow-md">
+      <nav class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+        <h1 class="font-bold text-[#2ad1e2] text-xl"><a href="./index.html">Viral Luva</a></h1>
+
+        <!-- Hamburger Icon -->
+        <button class="sm:hidden text-white text-2xl focus:outline-none" id="hamburgerIcon">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Desktop Menu -->
+        <div class="hidden sm:flex space-x-4 text-sm" id="navMenu">
+          <a href="./index.html#nfc" class="hover:text-[#2ad1e2]">NFC</a>
+          <a href="./index.html#graphic" class="hover:text-[#2ad1e2]">Design</a>
+          <a href="./index.html#portfolio" class="hover:text-[#2ad1e2]">Portfolio</a>
+          <a href="./index.html#testimonial" class="hover:text-[#2ad1e2]">Clients</a>
+          <a href="./index.html#contact" class="hover:text-[#2ad1e2]">Contact</a>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div class="sm:hidden px-4 pb-4 hidden text-sm" id="mobileMenu">
+        <a href="./index.html#nfc" class="block py-1 hover:text-[#2ad1e2]">NFC</a>
+        <a href="./index.html#graphic" class="block py-1 hover:text-[#2ad1e2]">Design</a>
+        <a href="./index.html#portfolio" class="block py-1 hover:text-[#2ad1e2]">Portfolio</a>
+        <a href="./index.html#testimonial" class="block py-1 hover:text-[#2ad1e2]">Clients</a>
+        <a href="./index.html#contact" class="block py-1 hover:text-[#2ad1e2]">Contact</a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    
+<main class="max-w-4xl mx-auto px-4">
+  <section class="text-center mb-16" data-aos="fade-up">
+    <h1 class="text-3xl font-bold text-[#2ad1e2]">Logo Design</h1>
+    <p class="text-gray-300 mt-2">Build your brand identity with a unique and memorable logo.</p>
+  </section>
+
+  <section class="bg-[#0a1620] p-6 rounded-xl mb-10" data-aos="fade-up">
+    <h2 class="text-xl font-semibold mb-4">Why Choose Logo Design?</h2>
+    <ul class="list-disc list-inside space-y-2 text-gray-300">
+      <li>Custom logo tailored to your brand story</li><li>Modern, minimalistic, and scalable designs</li><li>Logo files suitable for web, print, and social media</li>
+    </ul>
+  </section>
+
+  <section class="mb-10 text-center" data-aos="fade-up">
+    <h2 class="text-lg font-semibold mb-3">Ready to Get Started?</h2>
+    <a href="mailto:viralluvaoo7@gmail.com"
+      class="inline-block px-6 py-3 bg-[#2ad1e2] text-[#050c14] font-bold rounded-full hover:bg-[#1cb7c3] transition-all duration-300">
+      Get in Touch
+    </a>
+  </section>
+</main>
+
+    <!-- Scripts -->
+    <script>
+      AOS.init({ duration: 1000, once: true });
+
+      // Toggle Mobile Menu
+      document.getElementById('hamburgerIcon').addEventListener('click', function() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
